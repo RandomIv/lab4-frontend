@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-position: inside;
+}
+.active-blue {
+    background-color: blue;
+    color: white;
+}
+
+.active-lime {
+    background-color: limegreen;
+    color: white;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#myImage {
+    display: block;
+    margin-bottom: 10px;
+    transition: width 0.3s ease;
+}
